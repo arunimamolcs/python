@@ -1,0 +1,7 @@
+dict1={"a":20,"b":30,"c":40}
+dict2={"d":50,"e":60,"f":70}
+d=dict1.copy()
+d.update(dict2)
+print("dictionary1",dict1)
+print("dictionary2",dict2)
+print("merged",d)

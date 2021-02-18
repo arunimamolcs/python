@@ -1,0 +1,8 @@
+list_a=[4,11,2,7,8,10,15,6,12]
+new_list=[]
+for i in list_a:
+     if(i%2==0):
+      i=i+1
+     else:
+               new_list.append(i)
+print("the list after removing even numbers:",new_list)

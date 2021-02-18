@@ -1,0 +1,9 @@
+d={'athira':80,'diya':90,'deepa':70}
+print("the dictionary is:",d)
+list_d=list(d.items())
+print("The list is",list_d)
+list_d.sort()
+print("Dictionary in ascending order",list_d)
+d1=list(d.items())
+d1.sort(reverse=True)
+print("Dictionary in desending order",d1)

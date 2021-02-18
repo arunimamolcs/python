@@ -1,0 +1,6 @@
+total=0
+list1=[5,10,15,20,50]
+for i in range(0,len(list1)):
+     total=total+list1[i]
+print("The length of list",len(list1))
+print("Total sum of al list items",total)

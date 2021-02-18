@@ -1,0 +1,5 @@
+list1=['red','orange','yellow','black']
+list2=['white','black','green','blue']
+print("List one elements are:",list1)
+print("List two elements are:",list2)
+print("colors in list one and not in list2",set(list1).difference(set(list2)))

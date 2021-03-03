@@ -1,0 +1,22 @@
+From graphics 3D-graphics import cuboid as cb
+From graphics 3D-graphics import sphere as sp
+From graphics import rectangle
+from graphics  import circle as cr
+r=int(input("Enter the radius of circle:"))
+cr.carea(r)
+cr.cperi(r)
+l=int(input("Enter the length of rectangle:"))
+b=int(input("Enter the breadth of rectangle:"))
+rectangle.rarea(l,b)
+rectangle.rperi(l,b)
+s=int(input("Enter the radius of sphere:"))
+sp.spr-circum(s)
+sp.spr-area(s)
+lc=int(input("Enter the length of cuboid:"))
+wc=int(input("Enter the width of cuboid:"))
+bc=int(input("Enter the height of cuboid:"))
+cb.cubarea(lc,wc,bc)
+cb.cubperi(lc,wc,bc)
+
+
+

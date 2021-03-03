@@ -1,0 +1,6 @@
+def carea(r):
+   c-area=3.14*r*r
+   print("Area of circle:",c-area)
+def cperi(r):
+   c-peri=3.14*r*2
+   print("perimeter of circle:",c-peri)

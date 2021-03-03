@@ -1,0 +1,6 @@
+def spr.circum(r):
+   c=2*3.14*r
+   print("circumference of sphere:",c)
+def spr.carea(r):
+   a=4*3.14*r*r
+   print("surface area of a sphere:",a)
